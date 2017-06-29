@@ -1,14 +1,20 @@
 'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 // var randtoken = require('rand-token');
 // var nodemailer = require('nodemailer');
-
-var _options = require('./options.js');
-
-var _options2 = _interopRequireDefault(_options);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
+// import options from './options.js';
 // var options = require('options.js')
 
-console.log(_options2.default);
+//console.log(options);
+
+var prueba = function prueba() {
+  return console.log('prueba');
+};
+// let prueba2 = () => console.log('prueba2');
+
+// var demo = {prueba};
+
+exports.default = prueba;
