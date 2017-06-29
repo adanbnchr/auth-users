@@ -1,0 +1,30 @@
+{
+  "name": "auth-users",
+  "version": "1.0.0",
+  "description": "Users management: register, authentication, remember passwords...",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/auth-users.git"
+  },
+  "author": "juanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanda99/auth-users/issues"
+  },
+  "homepage": "https://github.com/juanda99/auth-users#readme",
+  "dependencies": {
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
